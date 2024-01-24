@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .wrap {
+            background-color: rgb(104, 194, 194);
+            height: 680px;
+            width: 1010px;
+        }
+        
+        .head {
+            height: 10%;
+            width: 100%;
+            border-bottom: 3px dashed white;
+        }
+        
+        .menu {
+            list-style: none;
+            display: flex;
+            position: relative;
+            color: white;
+        }
+        
+        .menu>li {
+            margin: 15px;
+        }
+        
+        .menu>h2 {
+            position: absolute;
+            right: 50px;
+            top: 10px;
+            text-shadow: 2px 2px blue;
+        }
+        
+        .menu>li>a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        
+        .main {
+            margin-top: 20px;
+            height: 430px;
+            display: flex;
+            border-bottom: 3px dashed white;
+        }
+        
+        .section {
+            width: 50%;
+            margin: 0;
+            padding-left: 10px;
+        }
+        
+        .ThongTin {
+            min-width: 300px;
+            display: inline-block;
+        }
+        
+        .aside {
+            color: blue;
+        }
+        
+        .foot {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="head">
+            <ul class="menu">
+                <li><a href="">Home </a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <h2>Sky World</h2>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="section">
+                <h2>Registration Information</h2>
+                <p>Start your travel planning now with our on-line tour regstration form. Just tell us a little about yourself and your group and one of our travel experts will contact you to create the perfect custom built for your group's needs . Your've
+                    arrived.
+                </p>
+
+                <form action="" class="fiel">
+                    <label class="ThongTin" for="Title">Title:</label>
+                    <select style="width: 50px;" name="" id="Title">
+                        <option value="">Mr</option>
+                        <option value="">Ms</option>
+                    </select>
+                    <br>
+                    <label class="ThongTin" for="">Full Name*</label>
+                    <input type="text" name="" id="" placeholder="First Name">
+                    <br>
+                    <label class="ThongTin" for=""> Mainding Address:</label>
+                    <input type="text" name="" id="" placeholder="Mainding Address">
+                    <br>
+                    <label class="ThongTin" for="">city:</label>
+                    <input type="text" placeholder="City">
+                    <br>
+                    <label class="ThongTin" for="'">Country:</label>
+                    <input type="text" name="" id="" placeholder="Country">
+                    <br>
+                    <label class="ThongTin" for="">Specific question or <br> requests about your tour:</label>
+                    <input style="height:50px ;" type="text" name="" id="" placeholder="Specific question or  requests about your tour">
+
+                    <br>
+                    <label class="ThongTin" for="'"></label>
+                    <input type="button" name="" id="" value="Submit">
+                    <input type="button" name="" id="" value="Reset">
+
+                </form>
+            </div>
+
+            <div class="aside">
+                <img style="height: 300px; width: 400px;" src="../2023_BTHTCNWeb_/2023_BTHTCNWeb_/2023_BTHTCNWeb_/Tuan3/Bai1/sky.png" alt="">
+                <h1 style="text-shadow: 4px 4px 2px rgb(69, 69, 241);">Your've arrived.</h1>
+                <p style="padding-left: 30px;">Journeys as great as the destinations</p>
+            </div>
+
+        </div>
+
+        <div class="foot">
+            <h2>2016 Sky World Tours. All rights reserved.</h2>
+            <p>COntact information: Student Name | StudentID | Testing Date </p>
+        </div>
+    </div>
+</body>
+
+</html>
