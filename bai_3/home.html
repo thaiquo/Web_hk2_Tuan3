@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 2px auto;
+            padding: 0;
+        }
+        .wrap{
+           
+            height: 730px;
+            width: 1200px;
+            border: 2px solid #333;
+        }
+        .head{
+           margin: 0;
+            color: rgba(204, 148, 6, 0.79);
+            background-color: rgba(146, 71, 6, 0.91);
+            line-height: 50px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px orange;
+        }
+        .head>h1{
+           
+            margin: 0;
+            margin-left: 30px;
+        }
+        .nav{
+            margin: 0;
+            border-bottom: 2px solid #333;
+            border-top: 2px solid #333;
+        }
+        .nav>.menu{
+           list-style: none;
+            display: flex;
+        }
+        .nav>.menu>li{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .nav>.menu>li>a{
+            
+            color: brown;
+            text-decoration: none;
+        }
+        .main{
+            margin: 0;
+            
+            height: 75%;
+            width: 100%;
+            background: url(../Tuan3/Bai3/line.png);;
+            background-position:0 0 ;
+            background-repeat:repeat-x;
+            background-size: 15%;
+            display: flex;
+        }
+        .section{
+            margin: 0 5px;
+            margin-top: 15%;
+            width: 60%;
+            border-right: 1px solid #333;
+        }
+        .section>p{
+            margin-left: 30px;
+            color: rgb(163, 108, 4);
+        }
+        .section>.list{
+            list-style: none;
+        }
+        .section>.list>li>a{
+            text-decoration: none;
+        }
+        .section>.list>li{
+            border-bottom: 1px solid #333;
+            width: 400px;
+            margin-bottom: 30px ;
+        }
+        .section>.list>li:last-child{
+            border: none;
+        }
+        .aside{
+            margin-top: 15%;
+            margin-left: 20px;
+            width: 30%;
+        }
+        .aside>.listLink{
+             background-color: bisque;
+             border-radius: 10px 10px;
+            
+        }
+        .aside>.listLink>ul>li{
+            margin-bottom: 10px;
+            margin-left: 30px;
+        }
+        .aside>.listLink>ul>li>a{
+            color: brown;
+            text-decoration: none;
+        }
+        .foot{
+            height: 14%;
+            width: 100%;
+            border:1px solid #333;
+            position: relative;
+            border-top: 2px solid #333;
+        }
+        .foot1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+        }
+        .foot2{
+            position: absolute;
+            bottom: 0;
+            left:0;
+            margin: 0;
+        }
+        .foot3{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+        }
+        .foot4{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+        }
+        .foot5{
+            position: absolute;
+            margin: 0;
+            top: 0;
+            left: 80px;
+            right: 80px;
+            height: 100px;
+           background-image: url(../Tuan3/Bai3/footer.png);
+           background-repeat: repeat-x;
+           background-position: 0 0;
+           background-size: 20%;
+          text-align: center;
+          line-height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="head">
+           <h1> AUTUMN  TRAVEL  COMPANY</h1>
+        </div>
+
+        <div class="nav">
+             <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Order</a></li>
+             </ul>
+        </div>
+
+        <div class="main">
+            <div class="section">
+             <h2 style="color: rgb(208, 137, 6); ;">Sign up for membership benefits</h2> <br>
+             <p>Our philisophical are transparency, respect,
+                formality and responsibility. Our stimulus is your enthusiasm. 
+                Our motto is your satisfation.</p> <br> <br>
+
+                <ul class="list">
+                    <li><a href="">Username</a></li>
+                    <li><a href="">E-mail</a></li>
+                    <li><a href="">Password</a></li>
+                    <li><a href="">Retype Password</a></li>
+                    <li><input style="background-color: rgba(14, 104, 4, 0.741)" type="button" value="SIGN ME UP"></li>
+                </ul>
+
+            </div>
+
+            <div class="aside">
+                <div class="listLink">
+                    <h3>Links</h3>
+                    <br> 
+                  <ul >
+                     
+                    <li><a href="">Make your Own Tour</a></li>
+                    <li><a href="">Maldives Tours</a></li>
+                    <li><a href="">Nature & Adventure</a></li>
+                    <li><a href="">Readymade Tours</a></li>
+                    <li><a href="">Europe Tours</a></li>
+                    <li><a href="">Rusia Tours</a></li>
+                 </ul>
+                </div>
+
+                <h3>More Info</h3>
+                <img style="height: 50px ; width:80px;float: left; margin: 5px 5px;" src="../Tuan3/Bai3/leaf.png" alt="">
+                <p>Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world</p>
+                <div style="clear: both;"></div>
+              
+            </div>
+        </div>
+
+        <div class="foot">
+            
+             <div class="foot1">
+                <img style="height: 50px; width: 80px; margin: 0;" src="../Tuan3/Bai3/corner1.png" alt="">
+             </div>
+             <div class="foot2">
+                <img style="height: 50px; width: 80px;margin: 0;" src="../Tuan3/Bai3/corner2.png" alt="">
+             </div>
+             <div class="foot3">
+                <img style="height: 50px; width: 80px;margin: 0;" src="../Tuan3/Bai3/corner3.png" alt="">
+             </div>
+             <div class="foot4">
+                <img style="height: 50px; width: 80px;margin: 0;" src="../Tuan3/Bai3/corner4.png" alt="">
+             </div>
+             <div class="foot5">
+                <h3>2017 Software Engineering Department Test Date 16 Sep 2017</h3>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
